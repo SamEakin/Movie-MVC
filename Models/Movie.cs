@@ -27,7 +27,6 @@ namespace MvcMovie.Models
         [StringLength(30)]
         public string Genre { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         [Required]
         [StringLength(5)]
         public string Rating { get; set; }
