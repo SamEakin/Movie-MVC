@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -73,6 +74,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Create
+        [Authorize(Roles = "IdentityUser")]
         public IActionResult Create()
         {
             return View();
@@ -95,6 +97,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Edit/5
+        [Authorize(Roles = "IdentityUser")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -115,6 +118,7 @@ namespace MvcMovie.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "IdentityUser")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
             if (id != movie.Id)
@@ -146,6 +150,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Delete/5
+        [Authorize(Roles = "IdentityUser")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -166,6 +171,7 @@ namespace MvcMovie.Controllers
         // POST: Movies/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "IdentityUser")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var movie = await _context.Movie.FindAsync(id);
