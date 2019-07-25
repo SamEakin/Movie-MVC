@@ -74,7 +74,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Create
-        [Authorize(Roles = "IdentityUser")]
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -84,6 +84,7 @@ namespace MvcMovie.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
@@ -97,7 +98,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Edit/5
-        [Authorize(Roles = "IdentityUser")]
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -117,8 +118,8 @@ namespace MvcMovie.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "IdentityUser")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
         {
             if (id != movie.Id)
@@ -150,7 +151,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Delete/5
-        [Authorize(Roles = "IdentityUser")]
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -171,7 +172,7 @@ namespace MvcMovie.Controllers
         // POST: Movies/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "IdentityUser")]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var movie = await _context.Movie.FindAsync(id);
