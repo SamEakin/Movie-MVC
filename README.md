@@ -15,15 +15,10 @@ My web app allows users to share their favorite movies by adding movies to the d
 ## Technologies:
 
     - ASP.NET web framework
-
     - ASP.NET MVC
-    
     - Bootstrap page styling
-
-    - SQLite Database Backend
-    
+    - SQLite Database Backend    
     - Azure Cloud Hosting
-
 
 # User Interface:
 
