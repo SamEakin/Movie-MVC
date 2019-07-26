@@ -20,19 +20,29 @@ My web app allows users to share their favorite movies by adding movies to the d
 
     - Bootstrap page styling.
 
-# Functionality:
+# User Guide
+
 [Welcome Page](#Welcome-Page)
+
 [Creating an Account/Log in](#Login-Page)
+
 [Movies Page](#Movies-Page)
+
 [Filtering by Genre](#Genre-Filtering)
+
 [Filtering by Title](#Title-Filtering)
+
 [Adding Movies](#Add-Movie-Page)
+
 [Viewing Movie Details](#Details-Page)
+
 [Editing an Existing Movie](#Edit-Page)
+
 [Deleting a Movie](#Delete-Page)
+
 [Managing your Account](#Manage-Account-Page)
 
-
+# Functionality:
 
 ## Welcome Page:
     - Upon entering the site Users are first presented with only the Navigation bar.
