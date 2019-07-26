@@ -55,6 +55,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Welcome Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/welcome-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -66,6 +67,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Login Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/login-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -76,6 +78,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Movies Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/movies-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -84,6 +87,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Genre Filter View](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/genre-filter.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -93,6 +97,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Filter View](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/filter.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -102,6 +107,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Add Movie Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/add-movie-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -111,6 +117,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Details Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/details-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -119,6 +126,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Edit Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/edit-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -127,6 +135,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Delete Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/delete-screen.png)
 
 [Back](#User-Interface)
+
 ---
 
 
@@ -139,4 +148,5 @@ My web app allows users to share their favorite movies by adding movies to the d
 ![Account Management Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/manage-screen.png)
 
 [Back](#User-Interface)
+
 ---
