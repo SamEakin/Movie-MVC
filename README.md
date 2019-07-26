@@ -12,7 +12,7 @@ Streaming providers such as Netflix all have a User List feature where users can
 
 My web app allows users to share their favorite movies by adding movies to the database. It is currently a master list that all users collaborate and append to. In a future release I would like the users to create and share their own movie lists individually.
 
-# Technologies:
+## Technologies:
 
     - ASP.NET web framework
 
