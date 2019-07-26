@@ -4,7 +4,7 @@ A MVC web application for users to keep a list of their favorite movies.
 
 https://seakin-movie.azurewebsites.net/
 
-# Table of Contents
+# User Stories
 
 [Welcome Page](#Welcome-Page)
 
@@ -56,6 +56,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 
 ---
 
+
 ## Login Page:
     - Users are not required to be registered to view the movies, but they are unable to Add, Edit, Delete.
     - Registered users can all make changes to the Movie database.
@@ -65,6 +66,7 @@ My web app allows users to share their favorite movies by adding movies to the d
 
 ---
 
+
 ## Movies Page:
     - Clicking Movies on the Navbar brings the users to the Movie Table.
     - Unregistered users are allowed to view the items but are prohibited from Creating, Editing, and Deleting movies.
@@ -73,11 +75,13 @@ My web app allows users to share their favorite movies by adding movies to the d
 
 ---
 
+
 ## Genre Filtering:
     - Any user can use the dropdown menu to filter movies by genre.
 ![Genre Filter View](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/genre-filter.png)
 
 ---
+
 
 ## Title Filtering:
     - Any user can also use the text input form to filter movies by Title or Genre.
@@ -86,12 +90,14 @@ My web app allows users to share their favorite movies by adding movies to the d
 
 ---
 
+
 ## Add Movie Page:
     - Registered users can add movies to the list.
     - All fields are required for submission.
 ![Add Movie Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/add-movie-screen.png)
 
 ---
+
 
 ## Details Page
     - Any user can view the details of a movie by clicking on the Details button.
@@ -100,17 +106,20 @@ My web app allows users to share their favorite movies by adding movies to the d
 
 ---
 
+
 ## Edit Page:
     - Registered Users can edit the fields of each movie.
 ![Edit Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/edit-screen.png)
 
 ---
 
+
 ## Delete Page:
     - Registered Users can delete.
 ![Delete Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/delete-screen.png)
 
 ---
+
 
 ## Manage Account Page:
     - If a user is signed in they can click on Account in the Navigation bar to view their account settings.
