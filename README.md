@@ -28,7 +28,7 @@ https://seakin-movie.azurewebsites.net/
 
 ## Business Problem:
 
-Streaming providers such as Netflix all have a User List feature where users can maintain a list of movies that they would like to watch. The problem is that between these streaming services there is way to share your favorite movies.
+Streaming providers such as Netflix all have a User List feature where users can maintain a list of movies that they would like to watch. The problem is that between these streaming services there is way to share your favorite movies with your friends.
 
 ## Solution:
 
