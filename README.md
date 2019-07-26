@@ -2,7 +2,7 @@
 
 A MVC web application for users to keep a list of their favorite movies.
 
-https://seakin-movie.azurewebsites.net/Movies
+https://seakin-movie.azurewebsites.net/
 
 ## Table of Contents
 
