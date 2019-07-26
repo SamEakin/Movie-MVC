@@ -54,7 +54,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - The Movies link will bring users to a view of the Movie database.
 ![Welcome Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/welcome-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -66,7 +68,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - The password must have atleast 1 Uppercase character and Non-Alpha-Numeric character.
 ![Login Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/login-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -77,7 +81,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - Clicking on any of these functionalities will route unregistered users to a login/registration page.
 ![Movies Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/movies-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -86,7 +92,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - Any user can use the dropdown menu to filter movies by genre.
 ![Genre Filter View](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/genre-filter.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -96,7 +104,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - This can filter by Genres as well.
 ![Filter View](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/filter.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -106,7 +116,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - All fields are required for submission.
 ![Add Movie Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/add-movie-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -116,7 +128,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - If they wish to Edit from here they must be a registered user.
 ![Details Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/details-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -125,7 +139,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - Registered Users can edit the fields of each movie.
 ![Edit Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/edit-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -134,7 +150,9 @@ My web app allows users to share their favorite movies by adding movies to the d
     - Registered Users can delete.
 ![Delete Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/delete-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
 
@@ -147,6 +165,8 @@ My web app allows users to share their favorite movies by adding movies to the d
         - Delete Account.         
 ![Account Management Page](https://github.com/SamEakin/Movie-MVC/blob/master/Documentation/Screenshots/manage-screen.png)
 
+
 [Back](#User-Interface)
+
 
 ---
