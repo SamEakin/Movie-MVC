@@ -4,7 +4,7 @@ A MVC web application for users to keep a list of their favorite movies.
 
 https://seakin-movie.azurewebsites.net/
 
-## Table of Contents
+# Table of Contents
 
 [Welcome Page](#Welcome-Page)
 
@@ -34,7 +34,7 @@ Streaming providers such as Netflix all have a User List feature where users can
 
 My web app allows users to share their favorite movies by adding movies to the database. It is currently a master list that all users collaborate and append to. In a future release I would like the users to create and share their own movie lists individually.
 
-## Technology:
+# Technologies:
 
     - ASP.NET web framework
 
