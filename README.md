@@ -48,7 +48,6 @@ My web app allows users to share their favorite movies by adding movies to the d
 [Managing your Account](#Manage-Account-Page)
 
 
-# Functionality:
 
 ## Welcome Page:
     - Upon entering the site Users are first presented with only the Navigation bar.
