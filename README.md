@@ -67,13 +67,20 @@ My web app allows users to share their favorite movies by adding movies to the d
 ##### Details Page
     - Any user can view the details of a movie by clicking on the Details button.
     - If they wish to Edit from here they must be a registered user.
-![Details Page](https://github.com/SamEakin/RazorPages/screenshots-movie-app/details-screen.png)
+![Details Page](https://github.com/SamEakin/Movie-MVC/blob/AuthVersion/Documentation/Screenshots/details-screen.png)
 
 ##### Edit Page:
+    - Registered Users can edit the fields of each movie.
 ![Edit Page](https://github.com/SamEakin/Movie-MVC/blob/AuthVersion/Documentation/Screenshots/edit-screen.png)
 
 ##### Delete Page:
+    - Registered Users can delete.
 ![Delete Page](https://github.com/SamEakin/Movie-MVC/blob/AuthVersion/Documentation/Screenshots/delete-screen.png)
 
 ##### Manage Account Page:
+    - If a user is signed in they can click on Account in the Navigation bar to view their account settings.
+        - Change Email.
+        - Change Password.
+        - Enabling Two-Factor Authentication.
+        - Delete Account.         
 ![Account Management Page](https://github.com/SamEakin/Movie-MVC/blob/AuthVersion/Documentation/Screenshots/manage-screen.png)
