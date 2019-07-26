@@ -25,7 +25,7 @@ My web app allows users to share their favorite movies by adding movies to the d
     - Azure Cloud Hosting
 
 
-## User Interface
+## User Interface:
 
 [Welcome Page](#Welcome-Page)
 
