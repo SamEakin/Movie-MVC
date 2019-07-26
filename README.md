@@ -4,6 +4,27 @@ A MVC web application for users to keep a list of their favorite movies.
 
 https://seakin-movie.azurewebsites.net/
 
+## Business Problem:
+
+Streaming providers such as Netflix all have a User List feature where users can maintain a list of movies that they would like to watch. The problem is that between these streaming services there is way to share your favorite movies with your friends.
+
+## Solution:
+
+My web app allows users to share their favorite movies by adding movies to the database. It is currently a master list that all users collaborate and append to. In a future release I would like the users to create and share their own movie lists individually.
+
+# Technologies:
+
+    - ASP.NET web framework
+
+    - ASP.NET MVC
+    
+    - Bootstrap page styling
+
+    - SQLite Database Backend
+    
+    - Azure Cloud Hosting
+
+
 # User Interface
 
 [Welcome Page](#Welcome-Page)
@@ -25,26 +46,6 @@ https://seakin-movie.azurewebsites.net/
 [Deleting a Movie](#Delete-Page)
 
 [Managing your Account](#Manage-Account-Page)
-
-## Business Problem:
-
-Streaming providers such as Netflix all have a User List feature where users can maintain a list of movies that they would like to watch. The problem is that between these streaming services there is way to share your favorite movies with your friends.
-
-## Solution:
-
-My web app allows users to share their favorite movies by adding movies to the database. It is currently a master list that all users collaborate and append to. In a future release I would like the users to create and share their own movie lists individually.
-
-# Technologies:
-
-    - ASP.NET web framework
-
-    - ASP.NET MVC
-    
-    - Bootstrap page styling
-
-    - SQLite Database Backend
-    
-    - Azure Cloud Hosting
 
 
 # Functionality:
